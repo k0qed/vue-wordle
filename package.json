@@ -1,12 +1,6 @@
 {
-  "name": "@k0qed/vue-wordle",
+  "name": "vue-wordle",
   "version": "0.0.0",
-  "workspaces": [
-    "demo"
-  ],
-  "exports": {
-    ".": "./src/index.ts"
-  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -7,3 +7,23 @@ A Vue implementation of the [Wordle game](https://www.powerlanguage.co.uk/wordle
 You can make your own Wordle and send it to friends by base64-encoding a word and include it as the URL query, e.g. https://vue-wordle.netlify.app/?YmxpbXA= (this will also allow words that are not in the dictionary.)
 
 This repository is open sourced for learning purposes only - the original creator(s) of Wordle own all applicable rights to the game itself.
+
+## Running Locally
+
+**Prerequisites:** [Node.js](https://nodejs.org/) (v14 or later) must be installed.
+
+```bash
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+Once the dev server starts, open the URL shown in the terminal (typically http://localhost:5173) in your browser to view the app.
+
+To build for production:
+
+```bash
+npm run build
+```
